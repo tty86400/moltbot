@@ -1,4 +1,5 @@
 import { html } from "lit";
+import { msg } from "@lit/localize";
 
 import type { GatewayHelloOk } from "../gateway";
 import { formatAgo, formatDurationMs } from "../format";
@@ -119,11 +120,11 @@ export function renderOverview(props: OverviewProps) {
   return html`
     <section class="grid grid-cols-2">
       <div class="card">
-        <div class="card-title">Gateway Access</div>
-        <div class="card-sub">Where the dashboard connects and how it authenticates.</div>
+        <div class="card-title">${msg("Gateway Access")}</div>
+        <div class="card-sub">${msg("Where the dashboard connects and how it authenticates.")}</div>
         <div class="form-grid" style="margin-top: 16px;">
           <label class="field">
-            <span>WebSocket URL</span>
+            <span>${msg("WebSocket URL")}</span>
             <input
               .value=${props.settings.gatewayUrl}
               @input=${(e: Event) => {
@@ -134,7 +135,7 @@ export function renderOverview(props: OverviewProps) {
             />
           </label>
           <label class="field">
-            <span>Gateway Token</span>
+            <span>${msg("Gateway Token")}</span>
             <input
               .value=${props.settings.token}
               @input=${(e: Event) => {
@@ -145,7 +146,7 @@ export function renderOverview(props: OverviewProps) {
             />
           </label>
           <label class="field">
-            <span>Password (not stored)</span>
+            <span>${msg("Password (not stored)")}</span>
             <input
               type="password"
               .value=${props.password}
@@ -157,7 +158,7 @@ export function renderOverview(props: OverviewProps) {
             />
           </label>
           <label class="field">
-            <span>Default Session Key</span>
+            <span>${msg("Default Session Key")}</span>
             <input
               .value=${props.settings.sessionKey}
               @input=${(e: Event) => {
@@ -168,32 +169,32 @@ export function renderOverview(props: OverviewProps) {
           </label>
         </div>
         <div class="row" style="margin-top: 14px;">
-          <button class="btn" @click=${() => props.onConnect()}>Connect</button>
-          <button class="btn" @click=${() => props.onRefresh()}>Refresh</button>
-          <span class="muted">Click Connect to apply connection changes.</span>
+          <button class="btn" @click=${() => props.onConnect()}>${msg("Connect")}</button>
+          <button class="btn" @click=${() => props.onRefresh()}>${msg("Refresh")}</button>
+          <span class="muted">${msg("Click Connect to apply connection changes.")}</span>
         </div>
       </div>
 
       <div class="card">
-        <div class="card-title">Snapshot</div>
-        <div class="card-sub">Latest gateway handshake information.</div>
+        <div class="card-title">${msg("Snapshot")}</div>
+        <div class="card-sub">${msg("Latest gateway handshake information.")}</div>
         <div class="stat-grid" style="margin-top: 16px;">
           <div class="stat">
-            <div class="stat-label">Status</div>
+            <div class="stat-label">${msg("Status")}</div>
             <div class="stat-value ${props.connected ? "ok" : "warn"}">
-              ${props.connected ? "Connected" : "Disconnected"}
+              ${props.connected ? msg("Connected") : msg("Disconnected")}
             </div>
           </div>
           <div class="stat">
-            <div class="stat-label">Uptime</div>
+            <div class="stat-label">${msg("Uptime")}</div>
             <div class="stat-value">${uptime}</div>
           </div>
           <div class="stat">
-            <div class="stat-label">Tick Interval</div>
+            <div class="stat-label">${msg("Tick Interval")}</div>
             <div class="stat-value">${tick}</div>
           </div>
           <div class="stat">
-            <div class="stat-label">Last Channels Refresh</div>
+            <div class="stat-label">${msg("Last Channels Refresh")}</div>
             <div class="stat-value">
               ${props.lastChannelsRefresh
                 ? formatAgo(props.lastChannelsRefresh)
@@ -208,52 +209,52 @@ export function renderOverview(props: OverviewProps) {
               ${insecureContextHint ?? ""}
             </div>`
           : html`<div class="callout" style="margin-top: 14px;">
-              Use Channels to link WhatsApp, Telegram, Discord, Signal, or iMessage.
+              ${msg("Use Channels to link WhatsApp, Telegram, Discord, Signal, or iMessage.")}
             </div>`}
       </div>
     </section>
 
     <section class="grid grid-cols-3" style="margin-top: 18px;">
       <div class="card stat-card">
-        <div class="stat-label">Instances</div>
+        <div class="stat-label">${msg("Instances")}</div>
         <div class="stat-value">${props.presenceCount}</div>
-        <div class="muted">Presence beacons in the last 5 minutes.</div>
+        <div class="muted">${msg("Presence beacons in the last 5 minutes.")}</div>
       </div>
       <div class="card stat-card">
-        <div class="stat-label">Sessions</div>
+        <div class="stat-label">${msg("Sessions")}</div>
         <div class="stat-value">${props.sessionsCount ?? "n/a"}</div>
-        <div class="muted">Recent session keys tracked by the gateway.</div>
+        <div class="muted">${msg("Recent session keys tracked by the gateway.")}</div>
       </div>
       <div class="card stat-card">
-        <div class="stat-label">Cron</div>
+        <div class="stat-label">${msg("Cron")}</div>
         <div class="stat-value">
           ${props.cronEnabled == null
             ? "n/a"
             : props.cronEnabled
-              ? "Enabled"
-              : "Disabled"}
+              ? msg("Enabled")
+              : msg("Disabled")}
         </div>
-        <div class="muted">Next wake ${formatNextRun(props.cronNext)}</div>
+        <div class="muted">${msg("Next wake")} ${formatNextRun(props.cronNext)}</div>
       </div>
     </section>
 
     <section class="card" style="margin-top: 18px;">
-      <div class="card-title">Notes</div>
-      <div class="card-sub">Quick reminders for remote control setups.</div>
+      <div class="card-title">${msg("Notes")}</div>
+      <div class="card-sub">${msg("Quick reminders for remote control setups.")}</div>
       <div class="note-grid" style="margin-top: 14px;">
         <div>
-          <div class="note-title">Tailscale serve</div>
+          <div class="note-title">${msg("Tailscale serve")}</div>
           <div class="muted">
-            Prefer serve mode to keep the gateway on loopback with tailnet auth.
+            ${msg("Prefer serve mode to keep the gateway on loopback with tailnet auth.")}
           </div>
         </div>
         <div>
-          <div class="note-title">Session hygiene</div>
-          <div class="muted">Use /new or sessions.patch to reset context.</div>
+          <div class="note-title">${msg("Session hygiene")}</div>
+          <div class="muted">${msg("Use /new or sessions.patch to reset context.")}</div>
         </div>
         <div>
-          <div class="note-title">Cron reminders</div>
-          <div class="muted">Use isolated sessions for recurring runs.</div>
+          <div class="note-title">${msg("Cron reminders")}</div>
+          <div class="muted">${msg("Use isolated sessions for recurring runs.")}</div>
         </div>
       </div>
     </section>
