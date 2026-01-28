@@ -1,4 +1,5 @@
 import { html, nothing } from "lit";
+import { msg } from "@lit/localize";
 
 import { formatAgo } from "../format";
 import type { IMessageStatus } from "../types";
@@ -14,26 +15,26 @@ export function renderIMessageCard(params: {
 
   return html`
     <div class="card">
-      <div class="card-title">iMessage</div>
-      <div class="card-sub">macOS bridge status and channel configuration.</div>
+      <div class="card-title">${msg("iMessage")}</div>
+      <div class="card-sub">${msg("macOS bridge status and channel configuration.")}</div>
       ${accountCountLabel}
 
       <div class="status-list" style="margin-top: 16px;">
         <div>
-          <span class="label">Configured</span>
-          <span>${imessage?.configured ? "Yes" : "No"}</span>
+          <span class="label">${msg("Configured")}</span>
+          <span>${imessage?.configured ? msg("Yes") : msg("No")}</span>
         </div>
         <div>
-          <span class="label">Running</span>
-          <span>${imessage?.running ? "Yes" : "No"}</span>
+          <span class="label">${msg("Running")}</span>
+          <span>${imessage?.running ? msg("Yes") : msg("No")}</span>
         </div>
         <div>
-          <span class="label">Last start</span>
-          <span>${imessage?.lastStartAt ? formatAgo(imessage.lastStartAt) : "n/a"}</span>
+          <span class="label">${msg("Last start")}</span>
+          <span>${imessage?.lastStartAt ? formatAgo(imessage.lastStartAt) : msg("n/a")}</span>
         </div>
         <div>
-          <span class="label">Last probe</span>
-          <span>${imessage?.lastProbeAt ? formatAgo(imessage.lastProbeAt) : "n/a"}</span>
+          <span class="label">${msg("Last probe")}</span>
+          <span>${imessage?.lastProbeAt ? formatAgo(imessage.lastProbeAt) : msg("n/a")}</span>
         </div>
       </div>
 
@@ -45,7 +46,7 @@ export function renderIMessageCard(params: {
 
       ${imessage?.probe
         ? html`<div class="callout" style="margin-top: 12px;">
-            Probe ${imessage.probe.ok ? "ok" : "failed"} ·
+            ${msg("Probe")} ${imessage.probe.ok ? msg("ok") : msg("failed")} ·
             ${imessage.probe.error ?? ""}
           </div>`
         : nothing}
@@ -54,7 +55,7 @@ export function renderIMessageCard(params: {
 
       <div class="row" style="margin-top: 12px;">
         <button class="btn" @click=${() => props.onRefresh(true)}>
-          Probe
+          ${msg("Probe")}
         </button>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { html, nothing } from "lit";
+import { msg } from "@lit/localize";
 
 import { formatAgo } from "../format";
 import type { WhatsAppStatus } from "../types";
@@ -16,46 +17,46 @@ export function renderWhatsAppCard(params: {
   return html`
     <div class="card">
       <div class="card-title">WhatsApp</div>
-      <div class="card-sub">Link WhatsApp Web and monitor connection health.</div>
+      <div class="card-sub">${msg("Link WhatsApp Web and monitor connection health.")}</div>
       ${accountCountLabel}
 
       <div class="status-list" style="margin-top: 16px;">
         <div>
-          <span class="label">Configured</span>
-          <span>${whatsapp?.configured ? "Yes" : "No"}</span>
+          <span class="label">${msg("Configured")}</span>
+          <span>${whatsapp?.configured ? msg("Yes") : msg("No")}</span>
         </div>
         <div>
-          <span class="label">Linked</span>
-          <span>${whatsapp?.linked ? "Yes" : "No"}</span>
+          <span class="label">${msg("Linked")}</span>
+          <span>${whatsapp?.linked ? msg("Yes") : msg("No")}</span>
         </div>
         <div>
-          <span class="label">Running</span>
-          <span>${whatsapp?.running ? "Yes" : "No"}</span>
+          <span class="label">${msg("Running")}</span>
+          <span>${whatsapp?.running ? msg("Yes") : msg("No")}</span>
         </div>
         <div>
-          <span class="label">Connected</span>
-          <span>${whatsapp?.connected ? "Yes" : "No"}</span>
+          <span class="label">${msg("Connected")}</span>
+          <span>${whatsapp?.connected ? msg("Yes") : msg("No")}</span>
         </div>
         <div>
-          <span class="label">Last connect</span>
+          <span class="label">${msg("Last connect")}</span>
           <span>
             ${whatsapp?.lastConnectedAt
               ? formatAgo(whatsapp.lastConnectedAt)
-              : "n/a"}
+              : msg("n/a")}
           </span>
         </div>
         <div>
-          <span class="label">Last message</span>
+          <span class="label">${msg("Last message")}</span>
           <span>
-            ${whatsapp?.lastMessageAt ? formatAgo(whatsapp.lastMessageAt) : "n/a"}
+            ${whatsapp?.lastMessageAt ? formatAgo(whatsapp.lastMessageAt) : msg("n/a")}
           </span>
         </div>
         <div>
-          <span class="label">Auth age</span>
+          <span class="label">${msg("Auth age")}</span>
           <span>
             ${whatsapp?.authAgeMs != null
               ? formatDuration(whatsapp.authAgeMs)
-              : "n/a"}
+              : msg("n/a")}
           </span>
         </div>
       </div>
@@ -84,31 +85,31 @@ export function renderWhatsAppCard(params: {
           ?disabled=${props.whatsappBusy}
           @click=${() => props.onWhatsAppStart(false)}
         >
-          ${props.whatsappBusy ? "Working…" : "Show QR"}
+          ${props.whatsappBusy ? msg("Working…") : msg("Show QR")}
         </button>
         <button
           class="btn"
           ?disabled=${props.whatsappBusy}
           @click=${() => props.onWhatsAppStart(true)}
         >
-          Relink
+          ${msg("Relink")}
         </button>
         <button
           class="btn"
           ?disabled=${props.whatsappBusy}
           @click=${() => props.onWhatsAppWait()}
         >
-          Wait for scan
+          ${msg("Wait for scan")}
         </button>
         <button
           class="btn danger"
           ?disabled=${props.whatsappBusy}
           @click=${() => props.onWhatsAppLogout()}
         >
-          Logout
+          ${msg("Logout")}
         </button>
         <button class="btn" @click=${() => props.onRefresh(true)}>
-          Refresh
+          ${msg("Refresh")}
         </button>
       </div>
 
