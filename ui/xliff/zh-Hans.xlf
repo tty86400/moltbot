@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="zh-Hans" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s7293d04c5979a8ad">
+  <source>Expand sidebar</source>
+  <target>展开侧边栏</target>
+</trans-unit>
+<trans-unit id="s8f10b4e57121e256">
+  <source>Collapse sidebar</source>
+  <target>收起侧边栏</target>
+</trans-unit>
+<trans-unit id="sf6026e85bd944e05">
+  <source>Gateway Dashboard</source>
+  <target>网关控制台</target>
+</trans-unit>
+<trans-unit id="sbaf0a7c417e388af">
+  <source>Health</source>
+  <target>健康状态</target>
+</trans-unit>
+<trans-unit id="s091d3d07b5b3076f">
+  <source>OK</source>
+  <target>正常</target>
+</trans-unit>
+<trans-unit id="scde3342a428aaee8">
+  <source>Offline</source>
+  <target>离线</target>
+</trans-unit>
+<trans-unit id="sa93c79c575088852">
+  <source>Resources</source>
+  <target>资源</target>
+</trans-unit>
+<trans-unit id="s1c64d13d82ee87da">
+  <source>Docs (opens in new tab)</source>
+  <target>文档（新标签页打开）</target>
+</trans-unit>
+<trans-unit id="s036ffe7360826852">
+  <source>Docs</source>
+  <target>文档</target>
+</trans-unit>
+<trans-unit id="s424c654650973289">
+  <source>Change language</source>
+  <target>切换语言</target>
+</trans-unit>
+<trans-unit id="sefcf950b3cc4fc3b">
+  <source>Language</source>
+  <target>语言</target>
+</trans-unit>
+<trans-unit id="s1d318e9d0ccba86b">
+  <source>Chat</source>
+  <target>对话</target>
+</trans-unit>
+<trans-unit id="s2dd2e77169a66d9e">
+  <source>Control</source>
+  <target>控制</target>
+</trans-unit>
+<trans-unit id="s95416925fd51a346">
+  <source>Agent</source>
+  <target>智能体</target>
+</trans-unit>
+<trans-unit id="s9d8b8aa2b404c2c8">
+  <source>Settings</source>
+  <target>设置</target>
+</trans-unit>
+<trans-unit id="s3d197283cb019b5a">
+  <source>Overview</source>
+  <target>概览</target>
+</trans-unit>
+<trans-unit id="s37114ce595691035">
+  <source>Channels</source>
+  <target>频道</target>
+</trans-unit>
+<trans-unit id="s2f4f955934b0c573">
+  <source>Instances</source>
+  <target>实例</target>
+</trans-unit>
+<trans-unit id="s5c18cae48b93138c">
+  <source>Sessions</source>
+  <target>会话</target>
+</trans-unit>
+<trans-unit id="s6708944714f91923">
+  <source>Cron Jobs</source>
+  <target>定时任务</target>
+</trans-unit>
+<trans-unit id="s01b09ac2bd6fcb1f">
+  <source>Skills</source>
+  <target>技能</target>
+</trans-unit>
+<trans-unit id="s8a0ee3d87938f19a">
+  <source>Nodes</source>
+  <target>节点</target>
+</trans-unit>
+<trans-unit id="s606c6789a0e06b07">
+  <source>Config</source>
+  <target>配置</target>
+</trans-unit>
+<trans-unit id="s96d2f1dc180a46d8">
+  <source>Debug</source>
+  <target>调试</target>
+</trans-unit>
+<trans-unit id="s4f1ad6b48a5df506">
+  <source>Logs</source>
+  <target>日志</target>
+</trans-unit>
+<trans-unit id="sc58e5de4fd33e26e">
+  <source>Gateway status, entry points, and a fast health read.</source>
+  <target>网关状态、入口点和快速健康检查。</target>
+</trans-unit>
+<trans-unit id="s9adc7fb4231116aa">
+  <source>Manage channels and settings.</source>
+  <target>管理频道和设置。</target>
+</trans-unit>
+<trans-unit id="se9fe8bb502675126">
+  <source>Presence beacons from connected clients and nodes.</source>
+  <target>已连接客户端和节点的在线信标。</target>
+</trans-unit>
+<trans-unit id="s1a41f8cceaf4301a">
+  <source>Inspect active sessions and adjust per-session defaults.</source>
+  <target>检查活跃会话并调整会话默认设置。</target>
+</trans-unit>
+<trans-unit id="sec15163f529ffa05">
+  <source>Schedule wakeups and recurring agent runs.</source>
+  <target>安排唤醒和定期智能体运行。</target>
+</trans-unit>
+<trans-unit id="s6ccf72b7e19c6ae9">
+  <source>Manage skill availability and API key injection.</source>
+  <target>管理技能可用性和 API 密钥注入。</target>
+</trans-unit>
+<trans-unit id="sbb1d81850813664a">
+  <source>Paired devices, capabilities, and command exposure.</source>
+  <target>已配对设备、功能和命令暴露。</target>
+</trans-unit>
+<trans-unit id="sdf11e6352e8a80d8">
+  <source>Direct gateway chat session for quick interventions.</source>
+  <target>直接网关对话会话，用于快速干预。</target>
+</trans-unit>
+<trans-unit id="s6d23384ecb424d7a">
+  <source>Edit ~/.clawdbot/moltbot.json safely.</source>
+  <target>安全编辑 ~/.clawdbot/moltbot.json。</target>
+</trans-unit>
+<trans-unit id="sa65f1188a628df54">
+  <source>Gateway snapshots, events, and manual RPC calls.</source>
+  <target>网关快照、事件和手动 RPC 调用。</target>
+</trans-unit>
+<trans-unit id="s1928077a5b791c86">
+  <source>Live tail of the gateway file logs.</source>
+  <target>实时跟踪网关文件日志。</target>
+</trans-unit>
+<trans-unit id="s671e68a2729b166d">
+  <source>Compacting context...</source>
+  <target>正在压缩上下文...</target>
+</trans-unit>
+<trans-unit id="sa40705624ef19020">
+  <source>Context compacted</source>
+  <target>上下文已压缩</target>
+</trans-unit>
+<trans-unit id="s0621fbc662f668f2">
+  <source>Remove attachment</source>
+  <target>移除附件</target>
+</trans-unit>
+<trans-unit id="sed6c22b439dba1c3">
+  <source>Add a message or paste more images...</source>
+  <target>添加消息或粘贴更多图片...</target>
+</trans-unit>
+<trans-unit id="s2a072ba75d7847ed">
+  <source>Message (Enter to send, Shift+Enter for line breaks, paste images)</source>
+  <target>消息（回车发送，Shift+回车换行，可粘贴图片）</target>
+</trans-unit>
+<trans-unit id="s3e7cd396ffabc8a4">
+  <source>Connect to the gateway to start chatting...</source>
+  <target>连接到网关以开始对话...</target>
+</trans-unit>
+<trans-unit id="s5c46981370d19f27">
+  <source>Loading chat...</source>
+  <target>加载对话中...</target>
+</trans-unit>
+<trans-unit id="s22d01fe757f06f3c">
+  <source>Exit focus mode</source>
+  <target>退出专注模式</target>
+</trans-unit>
+<trans-unit id="sa10c6dec4c8e2f7d">
+  <source>Queued (<x id="0" equiv-text="${props.queue.length}"/>)</source>
+  <target>队列中 (<x id="0" equiv-text="${props.queue.length}"/>)</target>
+</trans-unit>
+<trans-unit id="s406ee3c3b96a7e77">
+  <source>Image (<x id="0" equiv-text="${item.attachments.length}"/>)</source>
+  <target>图片 (<x id="0" equiv-text="${item.attachments.length}"/>)</target>
+</trans-unit>
+<trans-unit id="s6b6c67ff4a1c6481">
+  <source>Remove queued message</source>
+  <target>移除队列消息</target>
+</trans-unit>
+<trans-unit id="s79e8cc71a5975b04">
+  <source>Message</source>
+  <target>消息</target>
+</trans-unit>
+<trans-unit id="sd9ad53251f2330a5">
+  <source>Stop</source>
+  <target>停止</target>
+</trans-unit>
+<trans-unit id="s47e699a5378f8e6d">
+  <source>New session</source>
+  <target>新会话</target>
+</trans-unit>
+<trans-unit id="sc7637275f670c938">
+  <source>Queue</source>
+  <target>排队</target>
+</trans-unit>
+<trans-unit id="s57adf424d57c8a0f">
+  <source>Send</source>
+  <target>发送</target>
+</trans-unit>
+<trans-unit id="s86287d370a98b0d1">
+  <source>Gateway Access</source>
+  <target>网关访问</target>
+</trans-unit>
+<trans-unit id="s0bfdbcaaf400b3de">
+  <source>Where the dashboard connects and how it authenticates.</source>
+  <target>控制台连接位置和认证方式。</target>
+</trans-unit>
+<trans-unit id="sc9b708a11dbd9c01">
+  <source>WebSocket URL</source>
+  <target>WebSocket 地址</target>
+</trans-unit>
+<trans-unit id="sf2fd8943bfad3c38">
+  <source>Gateway Token</source>
+  <target>网关令牌</target>
+</trans-unit>
+<trans-unit id="s04880462ac22bf33">
+  <source>Password (not stored)</source>
+  <target>密码（不保存）</target>
+</trans-unit>
+<trans-unit id="s0c0645c3aa54a571">
+  <source>Default Session Key</source>
+  <target>默认会话密钥</target>
+</trans-unit>
+<trans-unit id="s7a4f059aaa029719">
+  <source>Connect</source>
+  <target>连接</target>
+</trans-unit>
+<trans-unit id="s7b7163270e57e8b4">
+  <source>Refresh</source>
+  <target>刷新</target>
+</trans-unit>
+<trans-unit id="s855c6cfc0455bee7">
+  <source>Click Connect to apply connection changes.</source>
+  <target>点击连接以应用连接更改。</target>
+</trans-unit>
+<trans-unit id="sce256a8918a7f18d">
+  <source>Snapshot</source>
+  <target>快照</target>
+</trans-unit>
+<trans-unit id="scead38a382d76a17">
+  <source>Latest gateway handshake information.</source>
+  <target>最新网关握手信息。</target>
+</trans-unit>
+<trans-unit id="sad3e3c8146fc920f">
+  <source>Status</source>
+  <target>状态</target>
+</trans-unit>
+<trans-unit id="s82a4e28ab5b56670">
+  <source>Connected</source>
+  <target>已连接</target>
+</trans-unit>
+<trans-unit id="sfc2c3bd345c0128a">
+  <source>Disconnected</source>
+  <target>已断开</target>
+</trans-unit>
+<trans-unit id="s1ccedf72cf7a2cd9">
+  <source>Uptime</source>
+  <target>运行时间</target>
+</trans-unit>
+<trans-unit id="s5e2bfd33b6f2df5d">
+  <source>Tick Interval</source>
+  <target>心跳间隔</target>
+</trans-unit>
+<trans-unit id="sb263bcc7875f4cd8">
+  <source>Last Channels Refresh</source>
+  <target>上次频道刷新</target>
+</trans-unit>
+<trans-unit id="seac7175040b28545">
+  <source>Use Channels to link WhatsApp, Telegram, Discord, Signal, or iMessage.</source>
+  <target>使用频道连接 WhatsApp、Telegram、Discord、Signal 或 iMessage。</target>
+</trans-unit>
+<trans-unit id="s43e4015664e729a3">
+  <source>Presence beacons in the last 5 minutes.</source>
+  <target>最近 5 分钟内的在线信标。</target>
+</trans-unit>
+<trans-unit id="s0450ca64f0cdc6ea">
+  <source>Recent session keys tracked by the gateway.</source>
+  <target>网关跟踪的最近会话密钥。</target>
+</trans-unit>
+<trans-unit id="s399d6e9c8b38a349">
+  <source>Cron</source>
+  <target>定时任务</target>
+</trans-unit>
+<trans-unit id="s965c503c3e42fdfe">
+  <source>Enabled</source>
+  <target>已启用</target>
+</trans-unit>
+<trans-unit id="s66722bc2ea775e05">
+  <source>Disabled</source>
+  <target>已禁用</target>
+</trans-unit>
+<trans-unit id="s23bd382bfc3c2878">
+  <source>Next wake</source>
+  <target>下次唤醒</target>
+</trans-unit>
+<trans-unit id="s005053d82b712e0a">
+  <source>Notes</source>
+  <target>备注</target>
+</trans-unit>
+<trans-unit id="s2f2427d6af3f6b97">
+  <source>Quick reminders for remote control setups.</source>
+  <target>远程控制设置的快速提醒。</target>
+</trans-unit>
+<trans-unit id="secff98b1014e2b70">
+  <source>Tailscale serve</source>
+  <target>Tailscale 服务</target>
+</trans-unit>
+<trans-unit id="se7f48addc59e93a3">
+  <source>Prefer serve mode to keep the gateway on loopback with tailnet auth.</source>
+  <target>推荐使用服务模式，通过 tailnet 认证保持网关在本地回环。</target>
+</trans-unit>
+<trans-unit id="s6703a8b7b1f99804">
+  <source>Session hygiene</source>
+  <target>会话清理</target>
+</trans-unit>
+<trans-unit id="s40c605d3bbb0b8f2">
+  <source>Use /new or sessions.patch to reset context.</source>
+  <target>使用 /new 或 sessions.patch 重置上下文。</target>
+</trans-unit>
+<trans-unit id="s1e0ffa768fa9570e">
+  <source>Cron reminders</source>
+  <target>定时任务提醒</target>
+</trans-unit>
+<trans-unit id="s50428dba66f8373c">
+  <source>Use isolated sessions for recurring runs.</source>
+  <target>为定期运行使用隔离会话。</target>
+</trans-unit>
+<trans-unit id="se31af5236b49b5ea">
+  <source>Channel health</source>
+  <target>频道健康</target>
+</trans-unit>
+<trans-unit id="sdbe0e8c2e6322e3a">
+  <source>Channel status snapshots from the gateway.</source>
+  <target>来自网关的频道状态快照。</target>
+</trans-unit>
+<trans-unit id="s2234e31926485921">
+  <source>n/a</source>
+  <target>无</target>
+</trans-unit>
+<trans-unit id="se56a6a0e801b6aae">
+  <source>No snapshot yet.</source>
+  <target>暂无快照。</target>
+</trans-unit>
+<trans-unit id="s9d9e335c7f4708b1">
+  <source>Channel status and configuration.</source>
+  <target>频道状态和配置。</target>
+</trans-unit>
+<trans-unit id="sea01c937be5a6a7d">
+  <source>Configured</source>
+  <target>已配置</target>
+</trans-unit>
+<trans-unit id="scb489a1a173ac3f0">
+  <source>Yes</source>
+  <target>是</target>
+</trans-unit>
+<trans-unit id="s09205907b5b56cda">
+  <source>No</source>
+  <target>否</target>
+</trans-unit>
+<trans-unit id="s85994a70cd39166c">
+  <source>Running</source>
+  <target>运行中</target>
+</trans-unit>
+<trans-unit id="s2819cc22c86e8d80">
+  <source>Last inbound</source>
+  <target>最后入站</target>
+</trans-unit>
+<trans-unit id="s25641c21047495da">
+  <source>Environment</source>
+  <target>环境</target>
+</trans-unit>
+<trans-unit id="s10d2d2c4613388a5">
+  <source>Updates</source>
+  <target>更新</target>
+</trans-unit>
+<trans-unit id="sefc8e08d71b8530f">
+  <source>Agents</source>
+  <target>智能体</target>
+</trans-unit>
+<trans-unit id="sc25edca57df81461">
+  <source>Authentication</source>
+  <target>认证</target>
+</trans-unit>
+<trans-unit id="sbdeedc1c60306b35">
+  <source>Messages</source>
+  <target>消息</target>
+</trans-unit>
+<trans-unit id="sebf4dcb0999597b3">
+  <source>Commands</source>
+  <target>命令</target>
+</trans-unit>
+<trans-unit id="s4d858ae153b5477b">
+  <source>Hooks</source>
+  <target>钩子</target>
+</trans-unit>
+<trans-unit id="sc26501e3ade7da3c">
+  <source>Tools</source>
+  <target>工具</target>
+</trans-unit>
+<trans-unit id="sc2abe27bb5be2879">
+  <source>Gateway</source>
+  <target>网关</target>
+</trans-unit>
+<trans-unit id="sbb3516c86de8fddd">
+  <source>Setup Wizard</source>
+  <target>设置向导</target>
+</trans-unit>
+<trans-unit id="s7d0cfe94310960b1">
+  <source>valid</source>
+  <target>有效</target>
+</trans-unit>
+<trans-unit id="s2be5705c42a81bd0">
+  <source>invalid</source>
+  <target>无效</target>
+</trans-unit>
+<trans-unit id="s498865c7bd1f3959">
+  <source>unknown</source>
+  <target>未知</target>
+</trans-unit>
+<trans-unit id="sbef8a6f316fde0d4">
+  <source>Search settings...</source>
+  <target>搜索设置...</target>
+</trans-unit>
+<trans-unit id="sc1508ba9f614f351">
+  <source>All Settings</source>
+  <target>所有设置</target>
+</trans-unit>
+<trans-unit id="s07aa10850d9ddcc7">
+  <source>Form</source>
+  <target>表单</target>
+</trans-unit>
+<trans-unit id="s9fffe119feb85df1">
+  <source>Raw</source>
+  <target>原始</target>
+</trans-unit>
+<trans-unit id="s6e6e4d288ea76fc4">
+  <source>Unsaved changes</source>
+  <target>未保存的更改</target>
+</trans-unit>
+<trans-unit id="s127ebb56f47f0911">
+  <source><x id="0" equiv-text="${diff.length}"/> unsaved change<x id="1" equiv-text="${diff.length !== 1 ? &quot;s&quot; : &quot;&quot;}"/></source>
+  <target><x id="0" equiv-text="${diff.length}"/> 个未保存的更改<x id="1" equiv-text="${diff.length !== 1 ? &quot;s&quot; : &quot;&quot;}"/></target>
+</trans-unit>
+<trans-unit id="s04d440fd8553e20b">
+  <source>No changes</source>
+  <target>无更改</target>
+</trans-unit>
+<trans-unit id="s6ebc9bd6feae62a3">
+  <source>Loading…</source>
+  <target>加载中…</target>
+</trans-unit>
+<trans-unit id="sd5b6130b4937488c">
+  <source>Reload</source>
+  <target>重新加载</target>
+</trans-unit>
+<trans-unit id="sb060188bb28bfa9f">
+  <source>Saving…</source>
+  <target>保存中…</target>
+</trans-unit>
+<trans-unit id="s33f85f24c0f5f008">
+  <source>Save</source>
+  <target>保存</target>
+</trans-unit>
+<trans-unit id="s9dbffb16aaad3bc1">
+  <source>Applying…</source>
+  <target>应用中…</target>
+</trans-unit>
+<trans-unit id="sb8f855b49234b81b">
+  <source>Apply</source>
+  <target>应用</target>
+</trans-unit>
+<trans-unit id="sa9cfd8a6941e2fb3">
+  <source>Updating…</source>
+  <target>更新中…</target>
+</trans-unit>
+<trans-unit id="s8b0432eecbd8b034">
+  <source>Update</source>
+  <target>更新</target>
+</trans-unit>
+<trans-unit id="s912745d9b1a82723">
+  <source>View <x id="0" equiv-text="${diff.length}"/> pending change<x id="1" equiv-text="${diff.length !== 1 ? &quot;s&quot; : &quot;&quot;}"/></source>
+  <target>查看 <x id="0" equiv-text="${diff.length}"/> 个待处理更改<x id="1" equiv-text="${diff.length !== 1 ? &quot;s&quot; : &quot;&quot;}"/></target>
+</trans-unit>
+<trans-unit id="sf993bb199fefbe04">
+  <source>All</source>
+  <target>全部</target>
+</trans-unit>
+<trans-unit id="s4ddfa50b8e322620">
+  <source>Loading schema…</source>
+  <target>加载架构中…</target>
+</trans-unit>
+<trans-unit id="s59c6fac26f85ab4b">
+  <source>Form view can't safely edit some fields. Use Raw to avoid losing config entries.</source>
+  <target>表单视图无法安全编辑某些字段。使用原始模式以避免丢失配置项。</target>
+</trans-unit>
+<trans-unit id="s96ff7eff6b418c8c">
+  <source>Raw JSON5</source>
+  <target>原始 JSON5</target>
+</trans-unit>
+<trans-unit id="sf2d615b20d62225a">
+  <source>Scheduler</source>
+  <target>调度器</target>
+</trans-unit>
+<trans-unit id="s26d675641db7c80e">
+  <source>Gateway-owned cron scheduler status.</source>
+  <target>网关拥有的定时调度器状态。</target>
+</trans-unit>
+<trans-unit id="s6c470eea2ab4e3bd">
+  <source>Jobs</source>
+  <target>任务</target>
+</trans-unit>
+<trans-unit id="s537534ff0214c8a6">
+  <source>Refreshing…</source>
+  <target>刷新中…</target>
+</trans-unit>
+<trans-unit id="s0a014809cf93bf0a">
+  <source>New Job</source>
+  <target>新建任务</target>
+</trans-unit>
+<trans-unit id="scf550df5639d0d43">
+  <source>Create a scheduled wakeup or agent run.</source>
+  <target>创建定时唤醒或智能体运行。</target>
+</trans-unit>
+<trans-unit id="sef49aec68fd1dc66">
+  <source>Name</source>
+  <target>名称</target>
+</trans-unit>
+<trans-unit id="s63d894b1ddb06289">
+  <source>Description</source>
+  <target>描述</target>
+</trans-unit>
+<trans-unit id="s595ea4ef3e12255f">
+  <source>Agent ID</source>
+  <target>智能体 ID</target>
+</trans-unit>
+<trans-unit id="s9b8dccb514a0e34c">
+  <source>Schedule</source>
+  <target>计划</target>
+</trans-unit>
+<trans-unit id="sd1137e66ebe71bc4">
+  <source>Every</source>
+  <target>每隔</target>
+</trans-unit>
+<trans-unit id="s09084e07b5a0c848">
+  <source>At</source>
+  <target>在</target>
+</trans-unit>
+<trans-unit id="s62278f512692e037">
+  <source>Session</source>
+  <target>会话</target>
+</trans-unit>
+<trans-unit id="s49e763aed00877a8">
+  <source>Main</source>
+  <target>主会话</target>
+</trans-unit>
+<trans-unit id="s3579332cddf37322">
+  <source>Isolated</source>
+  <target>隔离</target>
+</trans-unit>
+<trans-unit id="s5835e70682138c50">
+  <source>Wake mode</source>
+  <target>唤醒模式</target>
+</trans-unit>
+<trans-unit id="sac6fbbc5200d7308">
+  <source>Next heartbeat</source>
+  <target>下次心跳</target>
+</trans-unit>
+<trans-unit id="s3763f519c347a9f7">
+  <source>Now</source>
+  <target>立即</target>
+</trans-unit>
+<trans-unit id="sf53d748c36a47245">
+  <source>Payload</source>
+  <target>负载</target>
+</trans-unit>
+<trans-unit id="s92fe7da3b25bd88c">
+  <source>System event</source>
+  <target>系统事件</target>
+</trans-unit>
+<trans-unit id="sfa8f85ddcfc8fb21">
+  <source>Agent turn</source>
+  <target>智能体轮次</target>
+</trans-unit>
+<trans-unit id="s028505c4bedbef43">
+  <source>System text</source>
+  <target>系统文本</target>
+</trans-unit>
+<trans-unit id="scf1a7ead63967c19">
+  <source>Agent message</source>
+  <target>智能体消息</target>
+</trans-unit>
+<trans-unit id="sef5c0838c25a33ee">
+  <source>Deliver</source>
+  <target>投递</target>
+</trans-unit>
+<trans-unit id="s1da50951bdd7a204">
+  <source>Channel</source>
+  <target>频道</target>
+</trans-unit>
+<trans-unit id="s09353907b5c79284">
+  <source>To</source>
+  <target>发送至</target>
+</trans-unit>
+<trans-unit id="s537d4990f850bd4c">
+  <source>Timeout (seconds)</source>
+  <target>超时（秒）</target>
+</trans-unit>
+<trans-unit id="s6079a72eec1e1e2f">
+  <source>Post to main prefix</source>
+  <target>发送到主会话前缀</target>
+</trans-unit>
+<trans-unit id="s5c6c16c61e2097cf">
+  <source>Add job</source>
+  <target>添加任务</target>
+</trans-unit>
+<trans-unit id="s2bcda020d4199e78">
+  <source>All scheduled jobs stored in the gateway.</source>
+  <target>网关中存储的所有定时任务。</target>
+</trans-unit>
+<trans-unit id="sa1e9b0892c645af2">
+  <source>No jobs yet.</source>
+  <target>暂无任务。</target>
+</trans-unit>
+<trans-unit id="s70646d87f03799d6">
+  <source>Run history</source>
+  <target>运行历史</target>
+</trans-unit>
+<trans-unit id="s59a6efb137c22ed9">
+  <source>Latest runs for <x id="0" equiv-text="${props.runsJobId ?? msg(&quot;(select a job)&quot;)}"/></source>
+  <target><x id="0" equiv-text="${props.runsJobId ?? msg(&quot;(select a job)&quot;)}"/> 的最近运行</target>
+</trans-unit>
+<trans-unit id="saf333acd54855b9a">
+  <source>(select a job)</source>
+  <target>（选择一个任务）</target>
+</trans-unit>
+<trans-unit id="sb9f94d2adaca096f">
+  <source>Select a job to inspect run history.</source>
+  <target>选择一个任务以查看运行历史。</target>
+</trans-unit>
+<trans-unit id="s2b979f6bfe8c1318">
+  <source>No runs yet.</source>
+  <target>暂无运行记录。</target>
+</trans-unit>
+<trans-unit id="sb582b187159f68bb">
+  <source>Run at</source>
+  <target>运行时间</target>
+</trans-unit>
+<trans-unit id="s8f26e0f086cc2787">
+  <source>Unit</source>
+  <target>单位</target>
+</trans-unit>
+<trans-unit id="see0ec27fb03d880e">
+  <source>Minutes</source>
+  <target>分钟</target>
+</trans-unit>
+<trans-unit id="s099b18e1bd8a1154">
+  <source>Hours</source>
+  <target>小时</target>
+</trans-unit>
+<trans-unit id="sacae74732f544fca">
+  <source>Days</source>
+  <target>天</target>
+</trans-unit>
+<trans-unit id="s6ab73c998850c5ab">
+  <source>Expression</source>
+  <target>表达式</target>
+</trans-unit>
+<trans-unit id="scab3ca1342caae11">
+  <source>Timezone (optional)</source>
+  <target>时区（可选）</target>
+</trans-unit>
+<trans-unit id="s183d82efaa44aa86">
+  <source>Agent: <x id="0" equiv-text="${job.agentId}"/></source>
+  <target>智能体: <x id="0" equiv-text="${job.agentId}"/></target>
+</trans-unit>
+<trans-unit id="s70d885806b56289e">
+  <source>enabled</source>
+  <target>已启用</target>
+</trans-unit>
+<trans-unit id="s0fa3391db68e4425">
+  <source>disabled</source>
+  <target>已禁用</target>
+</trans-unit>
+<trans-unit id="s10c8e4cae4e11503">
+  <source>Disable</source>
+  <target>禁用</target>
+</trans-unit>
+<trans-unit id="s9078ee819c18df6e">
+  <source>Enable</source>
+  <target>启用</target>
+</trans-unit>
+<trans-unit id="s9fbbc819fe7e66aa">
+  <source>Run</source>
+  <target>运行</target>
+</trans-unit>
+<trans-unit id="sea7bdd2b70c8c2bb">
+  <source>Runs</source>
+  <target>运行记录</target>
+</trans-unit>
+<trans-unit id="sea4f08110bb8f15d">
+  <source>Remove</source>
+  <target>移除</target>
+</trans-unit>
+<trans-unit id="s43b93af1470e5be2">
+  <source><x id="0" equiv-text="${critical}"/> critical</source>
+  <target><x id="0" equiv-text="${critical}"/> 个严重问题</target>
+</trans-unit>
+<trans-unit id="s2b88bc913e54b6f2">
+  <source><x id="0" equiv-text="${warn}"/> warnings</source>
+  <target><x id="0" equiv-text="${warn}"/> 个警告</target>
+</trans-unit>
+<trans-unit id="s25a8bb51c944f715">
+  <source>No critical issues</source>
+  <target>无严重问题</target>
+</trans-unit>
+<trans-unit id="sf18604f4e560329a">
+  <source>Snapshots</source>
+  <target>快照</target>
+</trans-unit>
+<trans-unit id="scd615bf5f2871700">
+  <source>Status, health, and heartbeat data.</source>
+  <target>状态、健康和心跳数据。</target>
+</trans-unit>
+<trans-unit id="sc8885e44de7eb02a">
+  <source>Security audit:</source>
+  <target>安全审计：</target>
+</trans-unit>
+<trans-unit id="sd3cf7fbe0a982c56">
+  <source> · <x id="0" equiv-text="${info}"/> info</source>
+  <target> · <x id="0" equiv-text="${info}"/> 条信息</target>
+</trans-unit>
+<trans-unit id="sfa8ce1c5dc1da238">
+  <source>for details.</source>
+  <target>查看详情。</target>
+</trans-unit>
+<trans-unit id="sfc454a5a0cb76b39">
+  <source>Last heartbeat</source>
+  <target>最后心跳</target>
+</trans-unit>
+<trans-unit id="s9c966a9e3bf298f0">
+  <source>Manual RPC</source>
+  <target>手动 RPC</target>
+</trans-unit>
+<trans-unit id="s4d0818a86d146137">
+  <source>Send a raw gateway method with JSON params.</source>
+  <target>使用 JSON 参数发送原始网关方法。</target>
+</trans-unit>
+<trans-unit id="s61f9d8f4ed40ee90">
+  <source>Method</source>
+  <target>方法</target>
+</trans-unit>
+<trans-unit id="s573d1d44fe92b778">
+  <source>Params (JSON)</source>
+  <target>参数 (JSON)</target>
+</trans-unit>
+<trans-unit id="sdfa47b9ce9ac1889">
+  <source>Call</source>
+  <target>调用</target>
+</trans-unit>
+<trans-unit id="sa36aef46efe431eb">
+  <source>Models</source>
+  <target>模型</target>
+</trans-unit>
+<trans-unit id="sb1920dd212317df6">
+  <source>Catalog from models.list.</source>
+  <target>来自 models.list 的目录。</target>
+</trans-unit>
+<trans-unit id="sc1a1ff47c058bb09">
+  <source>Event Log</source>
+  <target>事件日志</target>
+</trans-unit>
+<trans-unit id="s4741dc14027dfd09">
+  <source>Latest gateway events.</source>
+  <target>最新网关事件。</target>
+</trans-unit>
+<trans-unit id="s345c3572afe18685">
+  <source>No events yet.</source>
+  <target>暂无事件。</target>
+</trans-unit>
+<trans-unit id="s5305f1cce28cf388">
+  <source>Connected Instances</source>
+  <target>已连接实例</target>
+</trans-unit>
+<trans-unit id="s24e14bcc54c190bb">
+  <source>Presence beacons from the gateway and clients.</source>
+  <target>来自网关和客户端的在线信标。</target>
+</trans-unit>
+<trans-unit id="se66178d748484013">
+  <source>No instances reported yet.</source>
+  <target>暂无实例报告。</target>
+</trans-unit>
+<trans-unit id="s2cb9bcd31f9f4c0f">
+  <source><x id="0" equiv-text="${entry.lastInputSeconds}"/>s ago</source>
+  <target><x id="0" equiv-text="${entry.lastInputSeconds}"/> 秒前</target>
+</trans-unit>
+<trans-unit id="s57bf55b7dd7a37ce">
+  <source><x id="0" equiv-text="${scopes.length}"/> scopes</source>
+  <target><x id="0" equiv-text="${scopes.length}"/> 个作用域</target>
+</trans-unit>
+<trans-unit id="s3853f1172e7e1254">
+  <source>scopes: <x id="0" equiv-text="${scopes.join(&quot;, &quot;)}"/></source>
+  <target>作用域: <x id="0" equiv-text="${scopes.join(&quot;, &quot;)}"/></target>
+</trans-unit>
+<trans-unit id="sf20684f59f224165">
+  <source>unknown host</source>
+  <target>未知主机</target>
+</trans-unit>
+<trans-unit id="sc482c8bc7ef36689">
+  <source>Last input</source>
+  <target>最后输入</target>
+</trans-unit>
+<trans-unit id="saa29a2ac03cd9d19">
+  <source>Reason</source>
+  <target>原因</target>
+</trans-unit>
+<trans-unit id="sc632ca34eb9c6349">
+  <source>Gateway file logs (JSONL).</source>
+  <target>网关文件日志 (JSONL)。</target>
+</trans-unit>
+<trans-unit id="s7e83882f63227c35">
+  <source>Export <x id="0" equiv-text="${exportLabel}"/></source>
+  <target>导出 <x id="0" equiv-text="${exportLabel}"/></target>
+</trans-unit>
+<trans-unit id="s7c95876637f6a9d7">
+  <source>Filter</source>
+  <target>筛选</target>
+</trans-unit>
+<trans-unit id="sd1621facb3068218">
+  <source>Search logs</source>
+  <target>搜索日志</target>
+</trans-unit>
+<trans-unit id="sd064166c33e9b44c">
+  <source>Auto-follow</source>
+  <target>自动跟踪</target>
+</trans-unit>
+<trans-unit id="sdbe2cb3f2550332d">
+  <source>File: <x id="0" equiv-text="${props.file}"/></source>
+  <target>文件: <x id="0" equiv-text="${props.file}"/></target>
+</trans-unit>
+<trans-unit id="s6abaf930ab355c62">
+  <source>Log output truncated; showing latest chunk.</source>
+  <target>日志输出已截断；显示最新部分。</target>
+</trans-unit>
+<trans-unit id="s91425ff82e3a1b2e">
+  <source>No log entries.</source>
+  <target>无日志条目。</target>
+</trans-unit>
+<trans-unit id="sa2ea0225b40b5ca9">
+  <source>Paired devices and live links.</source>
+  <target>已配对设备和实时链接。</target>
+</trans-unit>
+<trans-unit id="s6d41b8e8ebf65baf">
+  <source>No nodes found.</source>
+  <target>未找到节点。</target>
+</trans-unit>
+<trans-unit id="scfe39d24bc958960">
+  <source>Devices</source>
+  <target>设备</target>
+</trans-unit>
+<trans-unit id="s7bad1bdb55292472">
+  <source>Pairing requests + role tokens.</source>
+  <target>配对请求 + 角色令牌。</target>
+</trans-unit>
+<trans-unit id="s78636b92c1a3909c">
+  <source>Pending</source>
+  <target>待处理</target>
+</trans-unit>
+<trans-unit id="s36b08539e89cc8e8">
+  <source>Paired</source>
+  <target>已配对</target>
+</trans-unit>
+<trans-unit id="s41a5ee6690daefd2">
+  <source>No paired devices.</source>
+  <target>无已配对设备。</target>
+</trans-unit>
+<trans-unit id="s31ea6ab10067a23f">
+  <source>role: <x id="0" equiv-text="${req.role}"/></source>
+  <target>角色: <x id="0" equiv-text="${req.role}"/></target>
+</trans-unit>
+<trans-unit id="s31ea9bb10067f582">
+  <source>role: -</source>
+  <target>角色: -</target>
+</trans-unit>
+<trans-unit id="s4116270c7c903e4d">
+  <source> · repair</source>
+  <target> · 修复</target>
+</trans-unit>
+<trans-unit id="sd8d6a651bf360843">
+  <source>requested</source>
+  <target>已请求</target>
+</trans-unit>
+<trans-unit id="se5d01bef737e2e3a">
+  <source>Approve</source>
+  <target>批准</target>
+</trans-unit>
+<trans-unit id="s123da0f92f97dd86">
+  <source>Reject</source>
+  <target>拒绝</target>
+</trans-unit>
+<trans-unit id="s8c9d9c11e00c852e">
+  <source>roles: <x id="0" equiv-text="${formatList(device.roles)}"/></source>
+  <target>角色: <x id="0" equiv-text="${formatList(device.roles)}"/></target>
+</trans-unit>
+<trans-unit id="s362a0c23d60be447">
+  <source>Tokens: none</source>
+  <target>令牌: 无</target>
+</trans-unit>
+<trans-unit id="s78fd8c03f8c967f3">
+  <source>Tokens</source>
+  <target>令牌</target>
+</trans-unit>
+<trans-unit id="s83fbec540a152695">
+  <source>revoked</source>
+  <target>已撤销</target>
+</trans-unit>
+<trans-unit id="s6580790b036f0c6f">
+  <source>active</source>
+  <target>活跃</target>
+</trans-unit>
+<trans-unit id="sf5197db2d5f2926a">
+  <source>Rotate</source>
+  <target>轮换</target>
+</trans-unit>
+<trans-unit id="s0e871352ba4b17d3">
+  <source>Revoke</source>
+  <target>撤销</target>
+</trans-unit>
+<trans-unit id="sd0680e7343dedb27">
+  <source>Deny</source>
+  <target>拒绝</target>
+</trans-unit>
+<trans-unit id="s78f1dbac617b90ee">
+  <source>Allowlist</source>
+  <target>允许列表</target>
+</trans-unit>
+<trans-unit id="sb0e97584dc715a5c">
+  <source>Full</source>
+  <target>完整</target>
+</trans-unit>
+<trans-unit id="s302cbb19bf9a174a">
+  <source>Off</source>
+  <target>关闭</target>
+</trans-unit>
+<trans-unit id="s587f635f0099d938">
+  <source>On miss</source>
+  <target>未命中时</target>
+</trans-unit>
+<trans-unit id="s314a4f7685c8e824">
+  <source>Always</source>
+  <target>始终</target>
+</trans-unit>
+<trans-unit id="s5c65919f60fd3ed1">
+  <source>Exec node binding</source>
+  <target>执行节点绑定</target>
+</trans-unit>
+<trans-unit id="sa93d3b74989a7198">
+  <source>Pin agents to a specific node when using </source>
+  <target>使用时将智能体固定到特定节点 </target>
+</trans-unit>
+<trans-unit id="scb203cde63fd7998">
+  <source>Switch the Config tab to </source>
+  <target>将配置标签切换到 </target>
+</trans-unit>
+<trans-unit id="s957dca797cc7109b">
+  <source> mode to edit bindings here.</source>
+  <target> 模式以在此编辑绑定。</target>
+</trans-unit>
+<trans-unit id="s42a87235faa87826">
+  <source>Load config to edit bindings.</source>
+  <target>加载配置以编辑绑定。</target>
+</trans-unit>
+<trans-unit id="sf56ce717f6a5d3d9">
+  <source>Load config</source>
+  <target>加载配置</target>
+</trans-unit>
+<trans-unit id="se7f9d2e9650dee47">
+  <source>Default binding</source>
+  <target>默认绑定</target>
+</trans-unit>
+<trans-unit id="s03a98dc840c1cce8">
+  <source>Used when agents do not override a node binding.</source>
+  <target>当智能体未覆盖节点绑定时使用。</target>
+</trans-unit>
+<trans-unit id="s66bd1cc6d2f6b68d">
+  <source>Node</source>
+  <target>节点</target>
+</trans-unit>
+<trans-unit id="s12df87e9058fa417">
+  <source>Any node</source>
+  <target>任意节点</target>
+</trans-unit>
+<trans-unit id="s8a15dddcd0d3af20">
+  <source>No nodes with system.run available.</source>
+  <target>没有可用的 system.run 节点。</target>
+</trans-unit>
+<trans-unit id="s0eab9ecc22e53956">
+  <source>No agents found.</source>
+  <target>未找到智能体。</target>
+</trans-unit>
+<trans-unit id="sb5675e025c6bd054">
+  <source>Exec approvals</source>
+  <target>执行审批</target>
+</trans-unit>
+<trans-unit id="s2f49be388ddb4f6d">
+  <source>Allowlist and approval policy for </source>
+  <target>允许列表和审批策略 </target>
+</trans-unit>
+<trans-unit id="s3fc087d2b5f55791">
+  <source>Load exec approvals to edit allowlists.</source>
+  <target>加载执行审批以编辑允许列表。</target>
+</trans-unit>
+<trans-unit id="sf897cbfbed3cb039">
+  <source>Load approvals</source>
+  <target>加载审批</target>
+</trans-unit>
+<trans-unit id="sff5bb7742c2896c8">
+  <source>Target</source>
+  <target>目标</target>
+</trans-unit>
+<trans-unit id="s5e0f39919bdd37c1">
+  <source>Gateway edits local approvals; node edits the selected node.</source>
+  <target>网关编辑本地审批；节点编辑所选节点。</target>
+</trans-unit>
+<trans-unit id="s6b05f9d8801fc14f">
+  <source>Host</source>
+  <target>主机</target>
+</trans-unit>
+<trans-unit id="sf824cc3fa904db57">
+  <source>Select node</source>
+  <target>选择节点</target>
+</trans-unit>
+<trans-unit id="s138b2a011542ff25">
+  <source>No nodes advertise exec approvals yet.</source>
+  <target>暂无节点公布执行审批。</target>
+</trans-unit>
+<trans-unit id="s7d61376257220dab">
+  <source>Scope</source>
+  <target>作用域</target>
+</trans-unit>
+<trans-unit id="s48022f6d5501d677">
+  <source>Defaults</source>
+  <target>默认值</target>
+</trans-unit>
+<trans-unit id="s01a8d45397ec133b">
+  <source>Security</source>
+  <target>安全</target>
+</trans-unit>
+<trans-unit id="sb8b9524b8dd38673">
+  <source>Default security mode.</source>
+  <target>默认安全模式。</target>
+</trans-unit>
+<trans-unit id="s3e107d2be530a560">
+  <source>Default: <x id="0" equiv-text="${defaults.security}"/>.</source>
+  <target>默认: <x id="0" equiv-text="${defaults.security}"/></target>
+</trans-unit>
+<trans-unit id="s37cbecaec58e2192">
+  <source>Mode</source>
+  <target>模式</target>
+</trans-unit>
+<trans-unit id="s539df605aef6f49c">
+  <source>Use default (<x id="0" equiv-text="${defaults.security}"/>)</source>
+  <target>使用默认 (<x id="0" equiv-text="${defaults.security}"/></target>
+</trans-unit>
+<trans-unit id="sf9fcc219a048b2f2">
+  <source>Ask</source>
+  <target>询问</target>
+</trans-unit>
+<trans-unit id="sfef211dc460d2b64">
+  <source>Default prompt policy.</source>
+  <target>默认提示策略。</target>
+</trans-unit>
+<trans-unit id="s05dcfde1a216f88c">
+  <source>Ask fallback</source>
+  <target>询问回退</target>
+</trans-unit>
+<trans-unit id="s303f0aa55b5d242d">
+  <source>Applied when the UI prompt is unavailable.</source>
+  <target>当 UI 提示不可用时应用。</target>
+</trans-unit>
+<trans-unit id="s823c51b639a8a75b">
+  <source>Fallback</source>
+  <target>回退</target>
+</trans-unit>
+<trans-unit id="s3b58872c9a6b543a">
+  <source>Auto-allow skill CLIs</source>
+  <target>自动允许技能 CLI</target>
+</trans-unit>
+<trans-unit id="saea097955125afe1">
+  <source>Allow skill executables listed by the Gateway.</source>
+  <target>允许网关列出的技能可执行文件。</target>
+</trans-unit>
+<trans-unit id="s4248b65b565aba97">
+  <source>Using default (<x id="0" equiv-text="${defaults.autoAllowSkills ? &quot;on&quot; : &quot;off&quot;}"/>).</source>
+  <target>使用默认 (<x id="0" equiv-text="${defaults.autoAllowSkills ? &quot;on&quot; : &quot;off&quot;}"/></target>
+</trans-unit>
+<trans-unit id="s5dca2b065b31549a">
+  <source>Override (<x id="0" equiv-text="${autoEffective ? &quot;on&quot; : &quot;off&quot;}"/>).</source>
+  <target>覆盖 (<x id="0" equiv-text="${autoEffective ? &quot;on&quot; : &quot;off&quot;}"/></target>
+</trans-unit>
+<trans-unit id="s082eda98d60c2a71">
+  <source>Use default</source>
+  <target>使用默认</target>
+</trans-unit>
+<trans-unit id="s1ace95f51fea233e">
+  <source>Case-insensitive glob patterns.</source>
+  <target>不区分大小写的 glob 模式。</target>
+</trans-unit>
+<trans-unit id="s550f73f5eeae41ce">
+  <source>Add pattern</source>
+  <target>添加模式</target>
+</trans-unit>
+<trans-unit id="sd4b06e519a416881">
+  <source>No allowlist entries yet.</source>
+  <target>暂无允许列表条目。</target>
+</trans-unit>
+<trans-unit id="scbd8031e3d026dc9">
+  <source>never</source>
+  <target>从不</target>
+</trans-unit>
+<trans-unit id="s168ace1a7dd7ed0b">
+  <source>New pattern</source>
+  <target>新模式</target>
+</trans-unit>
+<trans-unit id="sa1a3de874d823c7a">
+  <source>Last used: <x id="0" equiv-text="${lastUsed}"/></source>
+  <target>最后使用: <x id="0" equiv-text="${lastUsed}"/></target>
+</trans-unit>
+<trans-unit id="s30fee907bd57e7e9">
+  <source>Pattern</source>
+  <target>模式</target>
+</trans-unit>
+<trans-unit id="s7261abd2e2047acf">
+  <source>default agent</source>
+  <target>默认智能体</target>
+</trans-unit>
+<trans-unit id="sd02d8a15c0f8e1e6">
+  <source>agent</source>
+  <target>智能体</target>
+</trans-unit>
+<trans-unit id="sc4457655cffaca39">
+  <source>uses default (<x id="0" equiv-text="${state.defaultBinding ?? &quot;any&quot;}"/>)</source>
+  <target>使用默认 (<x id="0" equiv-text="${state.defaultBinding ?? &quot;any&quot;}"/></target>
+</trans-unit>
+<trans-unit id="s4d0ae8999bd1e733">
+  <source>override: <x id="0" equiv-text="${agent.binding}"/></source>
+  <target>覆盖: <x id="0" equiv-text="${agent.binding}"/></target>
+</trans-unit>
+<trans-unit id="s50ebe627b4bc7d02">
+  <source>Binding</source>
+  <target>绑定</target>
+</trans-unit>
+<trans-unit id="s4e47b2260e616308">
+  <source>paired</source>
+  <target>已配对</target>
+</trans-unit>
+<trans-unit id="sae1f061e1d79aaab">
+  <source>unpaired</source>
+  <target>未配对</target>
+</trans-unit>
+<trans-unit id="s304f38944119e310">
+  <source>connected</source>
+  <target>已连接</target>
+</trans-unit>
+<trans-unit id="s574193ebbf068988">
+  <source>offline</source>
+  <target>离线</target>
+</trans-unit>
+<trans-unit id="s539e4ce9c3af75ab">
+  <source>Active session keys and per-session overrides.</source>
+  <target>活跃会话密钥和每会话覆盖。</target>
+</trans-unit>
+<trans-unit id="s940a6f6d17bdb3ea">
+  <source>Active within (minutes)</source>
+  <target>活跃时间（分钟）</target>
+</trans-unit>
+<trans-unit id="s91a65cb55433adb4">
+  <source>Limit</source>
+  <target>限制</target>
+</trans-unit>
+<trans-unit id="sf30cf1f337b938ee">
+  <source>Include global</source>
+  <target>包含全局</target>
+</trans-unit>
+<trans-unit id="s5b1e27c300bbcaf9">
+  <source>Include unknown</source>
+  <target>包含未知</target>
+</trans-unit>
+<trans-unit id="sc1ba173897f0747e">
+  <source>Store: <x id="0" equiv-text="${props.result.path}"/></source>
+  <target>存储: <x id="0" equiv-text="${props.result.path}"/></target>
+</trans-unit>
+<trans-unit id="s506b6a19d12f414c">
+  <source>Key</source>
+  <target>密钥</target>
+</trans-unit>
+<trans-unit id="s5590dbf7e425789d">
+  <source>Label</source>
+  <target>标签</target>
+</trans-unit>
+<trans-unit id="s70af97de3ad8fb23">
+  <source>Kind</source>
+  <target>类型</target>
+</trans-unit>
+<trans-unit id="s10d2dbc4613397f0">
+  <source>Updated</source>
+  <target>更新时间</target>
+</trans-unit>
+<trans-unit id="scc2f862c1d285c7d">
+  <source>Thinking</source>
+  <target>思考</target>
+</trans-unit>
+<trans-unit id="s1b5a859826f8be7d">
+  <source>Verbose</source>
+  <target>详细</target>
+</trans-unit>
+<trans-unit id="sabd480ab5c691fa7">
+  <source>Reasoning</source>
+  <target>推理</target>
+</trans-unit>
+<trans-unit id="s8af61807443f32a4">
+  <source>Actions</source>
+  <target>操作</target>
+</trans-unit>
+<trans-unit id="s0969a7c0e899a4e7">
+  <source>No sessions found.</source>
+  <target>未找到会话。</target>
+</trans-unit>
+<trans-unit id="sdc673e73b5c13aea">
+  <source>Delete</source>
+  <target>删除</target>
+</trans-unit>
+<trans-unit id="sd95fc859df18fa24">
+  <source>Bundled, managed, and workspace skills.</source>
+  <target>内置、托管和工作区技能。</target>
+</trans-unit>
+<trans-unit id="s1c1e7dae645470a1">
+  <source>Search skills</source>
+  <target>搜索技能</target>
+</trans-unit>
+<trans-unit id="sb17ccf02b5e69158">
+  <source><x id="0" equiv-text="${filtered.length}"/> shown</source>
+  <target>显示 <x id="0" equiv-text="${filtered.length}"/> 个</target>
+</trans-unit>
+<trans-unit id="s5a167c00c95d26d2">
+  <source>No skills found.</source>
+  <target>未找到技能。</target>
+</trans-unit>
+<trans-unit id="s3a49e30281399a10">
+  <source>eligible</source>
+  <target>符合条件</target>
+</trans-unit>
+<trans-unit id="s7efbf1594f60e733">
+  <source>blocked</source>
+  <target>已阻止</target>
+</trans-unit>
+<trans-unit id="s2b543cc36eb92447">
+  <source>Missing:</source>
+  <target>缺失:</target>
+</trans-unit>
+<trans-unit id="sf25c8d4a76620279">
+  <source>Reason:</source>
+  <target>原因:</target>
+</trans-unit>
+<trans-unit id="s954986670870010a">
+  <source>Installing…</source>
+  <target>安装中…</target>
+</trans-unit>
+<trans-unit id="sffc7a064de65d42c">
+  <source>API key</source>
+  <target>API 密钥</target>
+</trans-unit>
+<trans-unit id="s19d5b85c201725a7">
+  <source>Save key</source>
+  <target>保存密钥</target>
+</trans-unit>
+<trans-unit id="s15e02f091422eab3">
+  <source>Schema unavailable. Use Raw.</source>
+  <target>架构不可用。请使用原始模式。</target>
+</trans-unit>
+<trans-unit id="sf5ebe1e7a49fe383">
+  <source>Channel config schema unavailable.</source>
+  <target>频道配置架构不可用。</target>
+</trans-unit>
+<trans-unit id="s2a35881909405000">
+  <source>Loading config schema…</source>
+  <target>加载配置架构中…</target>
+</trans-unit>
+<trans-unit id="s6979dab8dbd2876f">
+  <source>Discord</source>
+</trans-unit>
+<trans-unit id="sa5c4a06e589dcd9a">
+  <source>Bot status and channel configuration.</source>
+</trans-unit>
+<trans-unit id="s8454e1a24850c5d9">
+  <source>Last start</source>
+</trans-unit>
+<trans-unit id="sf2e0bdf8fd81067f">
+  <source>Last probe</source>
+</trans-unit>
+<trans-unit id="sb936788adfc7b951">
+  <source>Probe</source>
+</trans-unit>
+<trans-unit id="s08b05d07b5566bef">
+  <source>ok</source>
+</trans-unit>
+<trans-unit id="sd7338946b42394f4">
+  <source>failed</source>
+</trans-unit>
+<trans-unit id="sd2c5915b22302fac">
+  <source>Google Chat</source>
+</trans-unit>
+<trans-unit id="sdfeb3bcd29e5f4e6">
+  <source>Chat API webhook status and channel configuration.</source>
+</trans-unit>
+<trans-unit id="s2186500931b0ddd8">
+  <source>Credential</source>
+</trans-unit>
+<trans-unit id="sd5a4b41c6c883b03">
+  <source>Audience</source>
+</trans-unit>
+<trans-unit id="s7ee0b2dd1dad8603">
+  <source>iMessage</source>
+</trans-unit>
+<trans-unit id="s96aba50ba2e1fe73">
+  <source>macOS bridge status and channel configuration.</source>
+</trans-unit>
+<trans-unit id="s86938af28cce7b74">
+  <source>Profile picture preview</source>
+</trans-unit>
+<trans-unit id="s8641b6c3688a0cec">
+  <source>Edit Profile</source>
+</trans-unit>
+<trans-unit id="s846b3790b6e25c1c">
+  <source>Account</source>
+</trans-unit>
+<trans-unit id="s03f42eea72154959">
+  <source>Username</source>
+</trans-unit>
+<trans-unit id="s06cf275c90a7d4b5">
+  <source>Short username (e.g., satoshi)</source>
+</trans-unit>
+<trans-unit id="s11b2e9ecce28690c">
+  <source>Display Name</source>
+</trans-unit>
+<trans-unit id="sd469de4bd0e7ef0c">
+  <source>Your full display name</source>
+</trans-unit>
+<trans-unit id="s165d3919b108ec51">
+  <source>Bio</source>
+</trans-unit>
+<trans-unit id="s47b14e48f9b6dec5">
+  <source>Tell people about yourself...</source>
+</trans-unit>
+<trans-unit id="sfd871e0733481005">
+  <source>A brief bio or description</source>
+</trans-unit>
+<trans-unit id="sd49cb83ad2c25a25">
+  <source>Avatar URL</source>
+</trans-unit>
+<trans-unit id="sd9f3d93fee433de0">
+  <source>HTTPS URL to your profile picture</source>
+</trans-unit>
+<trans-unit id="s21b06c38fc4164db">
+  <source>Advanced</source>
+</trans-unit>
+<trans-unit id="s47677e54e2974196">
+  <source>Banner URL</source>
+</trans-unit>
+<trans-unit id="s0ff5f9852280a702">
+  <source>HTTPS URL to a banner image</source>
+</trans-unit>
+<trans-unit id="s82665b2ffabc9c0a">
+  <source>Website</source>
+</trans-unit>
+<trans-unit id="s230915fc36274007">
+  <source>Your personal website</source>
+</trans-unit>
+<trans-unit id="s5d694237bf14209b">
+  <source>NIP-05 Identifier</source>
+</trans-unit>
+<trans-unit id="sa45d38ff433eaa56">
+  <source>Verifiable identifier (e.g., you@domain.com)</source>
+</trans-unit>
+<trans-unit id="scef7ca3072a4d37d">
+  <source>Lightning Address</source>
+</trans-unit>
+<trans-unit id="s9d947c5c5352e87e">
+  <source>Lightning address for tips (LUD-16)</source>
+</trans-unit>
+<trans-unit id="s717d4a2cd3f7d66f">
+  <source>Saving...</source>
+</trans-unit>
+<trans-unit id="sc0b3b9aa72aa34bd">
+  <source>Save &amp; Publish</source>
+</trans-unit>
+<trans-unit id="sc067ea78adad249a">
+  <source>Importing...</source>
+</trans-unit>
+<trans-unit id="s61ec80eb67429baa">
+  <source>Import from Relays</source>
+</trans-unit>
+<trans-unit id="s17c0c9efd1193889">
+  <source>Hide Advanced</source>
+</trans-unit>
+<trans-unit id="s08cbf0874610b3fe">
+  <source>Show Advanced</source>
+</trans-unit>
+<trans-unit id="s2ceb11be2290bb1b">
+  <source>Cancel</source>
+</trans-unit>
+<trans-unit id="s8297cb88f31a1ba5">
+  <source>You have unsaved changes</source>
+</trans-unit>
+<trans-unit id="sfd1af96798dd8a5f">
+  <source>Public Key</source>
+</trans-unit>
+<trans-unit id="sb061ff5a347a296e">
+  <source>Profile</source>
+</trans-unit>
+<trans-unit id="s7de0ee8b863c0b30">
+  <source>Profile picture</source>
+</trans-unit>
+<trans-unit id="s0487f33d9ddaabde">
+  <source>About</source>
+</trans-unit>
+<trans-unit id="s527ce6e1b76db838">
+  <source>NIP-05</source>
+</trans-unit>
+<trans-unit id="sa75dc6dad29ed4fc">
+  <source>No profile set. Click "Edit Profile" to add your name, bio, and avatar.</source>
+</trans-unit>
+<trans-unit id="sd53387d81313e2ad">
+  <source>Nostr</source>
+</trans-unit>
+<trans-unit id="s48f26c9b9db17bca">
+  <source>Decentralized DMs via Nostr relays (NIP-04).</source>
+</trans-unit>
+<trans-unit id="s38cba0a354bb3929">
+  <source>Signal</source>
+</trans-unit>
+<trans-unit id="se2009d94cb26affa">
+  <source>signal-cli status and channel configuration.</source>
+</trans-unit>
+<trans-unit id="s6827930ef1aeaf99">
+  <source>Base URL</source>
+</trans-unit>
+<trans-unit id="s2f5e2bcd583fbc27">
+  <source>Slack</source>
+</trans-unit>
+<trans-unit id="scae3e2107f9166eb">
+  <source>Socket mode status and channel configuration.</source>
+</trans-unit>
+<trans-unit id="sb990262811298ec4">
+  <source>Link WhatsApp Web and monitor connection health.</source>
+</trans-unit>
+<trans-unit id="s91138a060df28f80">
+  <source>Linked</source>
+</trans-unit>
+<trans-unit id="s7b5c73bcbde95f2f">
+  <source>Last connect</source>
+</trans-unit>
+<trans-unit id="sf295d218c77c0d22">
+  <source>Last message</source>
+</trans-unit>
+<trans-unit id="sd1f7b7c7657fdfe4">
+  <source>Auth age</source>
+</trans-unit>
+<trans-unit id="se6d0c90fca026c0a">
+  <source>Working…</source>
+</trans-unit>
+<trans-unit id="s52390ffe8f589397">
+  <source>Show QR</source>
+</trans-unit>
+<trans-unit id="se4866c0b50e50a60">
+  <source>Relink</source>
+</trans-unit>
+<trans-unit id="sdb1424d52258e590">
+  <source>Wait for scan</source>
+</trans-unit>
+<trans-unit id="s67749057edb2586b">
+  <source>Logout</source>
+</trans-unit>
+</body>
+</file>
+</xliff>
