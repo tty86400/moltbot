@@ -1,5 +1,6 @@
 import { LitElement, html, nothing } from "lit";
 import { customElement, state } from "lit/decorators.js";
+import { localized } from "@lit/localize";
 
 import type { GatewayBrowserClient, GatewayHelloOk } from "./gateway";
 import { resolveInjectedAssistantIdentity } from "./assistant-identity";
@@ -96,6 +97,7 @@ function resolveOnboardingMode(): boolean {
   return normalized === "1" || normalized === "true" || normalized === "yes" || normalized === "on";
 }
 
+@localized()
 @customElement("moltbot-app")
 export class MoltbotApp extends LitElement {
   @state() settings: UiSettings = loadSettings();

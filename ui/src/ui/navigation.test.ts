@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  TAB_GROUPS,
+  getTabGroups,
   iconForTab,
   inferBasePathFromPathname,
   normalizeBasePath,
@@ -13,8 +13,8 @@ import {
   type Tab,
 } from "./navigation";
 
-/** All valid tab identifiers derived from TAB_GROUPS */
-const ALL_TABS: Tab[] = TAB_GROUPS.flatMap((group) => group.tabs) as Tab[];
+/** All valid tab identifiers derived from getTabGroups() */
+const ALL_TABS: Tab[] = getTabGroups().flatMap((group) => group.tabs) as Tab[];
 
 describe("iconForTab", () => {
   it("returns a non-empty string for every tab", () => {
@@ -173,9 +173,9 @@ describe("inferBasePathFromPathname", () => {
   });
 });
 
-describe("TAB_GROUPS", () => {
+describe("getTabGroups", () => {
   it("contains all expected groups", () => {
-    const labels = TAB_GROUPS.map((g) => g.label);
+    const labels = getTabGroups().map((g) => g.label);
     expect(labels).toContain("Chat");
     expect(labels).toContain("Control");
     expect(labels).toContain("Agent");
@@ -183,7 +183,7 @@ describe("TAB_GROUPS", () => {
   });
 
   it("all tabs are unique", () => {
-    const allTabs = TAB_GROUPS.flatMap((g) => g.tabs);
+    const allTabs = getTabGroups().flatMap((g) => g.tabs);
     const uniqueTabs = new Set(allTabs);
     expect(uniqueTabs.size).toBe(allTabs.length);
   });

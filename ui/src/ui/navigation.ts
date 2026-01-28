@@ -1,14 +1,17 @@
+import { msg } from "@lit/localize";
 import type { IconName } from "./icons.js";
 
-export const TAB_GROUPS = [
-  { label: "Chat", tabs: ["chat"] },
-  {
-    label: "Control",
-    tabs: ["overview", "channels", "instances", "sessions", "cron"],
-  },
-  { label: "Agent", tabs: ["skills", "nodes"] },
-  { label: "Settings", tabs: ["config", "debug", "logs"] },
-] as const;
+export function getTabGroups() {
+  return [
+    { label: msg("Chat"), tabs: ["chat"] as const },
+    {
+      label: msg("Control"),
+      tabs: ["overview", "channels", "instances", "sessions", "cron"] as const,
+    },
+    { label: msg("Agent"), tabs: ["skills", "nodes"] as const },
+    { label: msg("Settings"), tabs: ["config", "debug", "logs"] as const },
+  ];
+}
 
 export type Tab =
   | "overview"
@@ -132,56 +135,56 @@ export function iconForTab(tab: Tab): IconName {
 export function titleForTab(tab: Tab) {
   switch (tab) {
     case "overview":
-      return "Overview";
+      return msg("Overview");
     case "channels":
-      return "Channels";
+      return msg("Channels");
     case "instances":
-      return "Instances";
+      return msg("Instances");
     case "sessions":
-      return "Sessions";
+      return msg("Sessions");
     case "cron":
-      return "Cron Jobs";
+      return msg("Cron Jobs");
     case "skills":
-      return "Skills";
+      return msg("Skills");
     case "nodes":
-      return "Nodes";
+      return msg("Nodes");
     case "chat":
-      return "Chat";
+      return msg("Chat");
     case "config":
-      return "Config";
+      return msg("Config");
     case "debug":
-      return "Debug";
+      return msg("Debug");
     case "logs":
-      return "Logs";
+      return msg("Logs");
     default:
-      return "Control";
+      return msg("Control");
   }
 }
 
 export function subtitleForTab(tab: Tab) {
   switch (tab) {
     case "overview":
-      return "Gateway status, entry points, and a fast health read.";
+      return msg("Gateway status, entry points, and a fast health read.");
     case "channels":
-      return "Manage channels and settings.";
+      return msg("Manage channels and settings.");
     case "instances":
-      return "Presence beacons from connected clients and nodes.";
+      return msg("Presence beacons from connected clients and nodes.");
     case "sessions":
-      return "Inspect active sessions and adjust per-session defaults.";
+      return msg("Inspect active sessions and adjust per-session defaults.");
     case "cron":
-      return "Schedule wakeups and recurring agent runs.";
+      return msg("Schedule wakeups and recurring agent runs.");
     case "skills":
-      return "Manage skill availability and API key injection.";
+      return msg("Manage skill availability and API key injection.");
     case "nodes":
-      return "Paired devices, capabilities, and command exposure.";
+      return msg("Paired devices, capabilities, and command exposure.");
     case "chat":
-      return "Direct gateway chat session for quick interventions.";
+      return msg("Direct gateway chat session for quick interventions.");
     case "config":
-      return "Edit ~/.clawdbot/moltbot.json safely.";
+      return msg("Edit ~/.clawdbot/moltbot.json safely.");
     case "debug":
-      return "Gateway snapshots, events, and manual RPC calls.";
+      return msg("Gateway snapshots, events, and manual RPC calls.");
     case "logs":
-      return "Live tail of the gateway file logs.";
+      return msg("Live tail of the gateway file logs.");
     default:
       return "";
   }
